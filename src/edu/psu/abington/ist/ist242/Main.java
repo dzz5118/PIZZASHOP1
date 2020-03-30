@@ -55,9 +55,8 @@ public class Main {
                     Menu.listMenu(mList);
                     break;
                 case ORDE_CODE:
-                    System.out.print("Please enter order ID: ");
+                    System.out.print("Please enter ID: ");
                     int cid = scnr.nextInt();
-
                     ArrayList<Menu> cMenu = selectMenu(mList);
                     Order.addOrders(order1, cList.get(cid), cMenu);
                     oList.add(order1);
@@ -112,7 +111,7 @@ public class Main {
         double total = 0;
         double amount;
         System.out.println("Total amount owed:");
-        for (Menu menu : order1.getmenuItem()) {
+        for (Menu menu : order1.getMenuItem()) {
             System.out.print(menu.getmenuItem());
 
 

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b51378cd-4bf6-405e-841a-090df67ba21e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/psu/abington/ist/ist242/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/psu/abington/ist/ist242/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/psu/abington/ist/ist242/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/psu/abington/ist/ist242/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/psu/abington/ist/ist242/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/psu/abington/ist/ist242/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,43 +88,59 @@
       <option name="project" value="LOCAL" />
       <updated>1585520787832</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="main and menu + transaction">
+      <created>1585536917333</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585536917333</updated>
+    </task>
+    <task id="LOCAL-00003" summary="order">
+      <created>1585537088965</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585537088965</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="main and menu + transaction" />
+    <MESSAGE value="order" />
+    <option name="LAST_COMMIT_MESSAGE" value="order" />
   </component>
   <component name="WindowStateProjectService">
     <state x="724" y="325" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585527344277">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="724" y="325" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585527344277" />
-    <state x="528" y="28" key="CommitChangelistDialog2" timestamp="1585536916980">
+    <state x="528" y="28" key="CommitChangelistDialog2" timestamp="1585537088624">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="528" y="28" key="CommitChangelistDialog2/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585536916980" />
+    <state x="528" y="28" key="CommitChangelistDialog2/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585537088624" />
     <state x="371" y="44" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1585521057969" />
-    <state width="1362" height="224" key="GridCell.Tab.0.bottom" timestamp="1585532898372">
+    <state width="1362" height="224" key="GridCell.Tab.0.bottom" timestamp="1585539173554">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1362" height="224" key="GridCell.Tab.0.bottom/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585532898372" />
-    <state width="1362" height="224" key="GridCell.Tab.0.center" timestamp="1585532898372">
+    <state width="1362" height="224" key="GridCell.Tab.0.bottom/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585539173554" />
+    <state width="1362" height="224" key="GridCell.Tab.0.center" timestamp="1585539173554">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1362" height="224" key="GridCell.Tab.0.center/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585532898372" />
-    <state width="1362" height="224" key="GridCell.Tab.0.left" timestamp="1585532898372">
+    <state width="1362" height="224" key="GridCell.Tab.0.center/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585539173554" />
+    <state width="1362" height="224" key="GridCell.Tab.0.left" timestamp="1585539173554">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1362" height="224" key="GridCell.Tab.0.left/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585532898372" />
-    <state width="1362" height="224" key="GridCell.Tab.0.right" timestamp="1585532898372">
+    <state width="1362" height="224" key="GridCell.Tab.0.left/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585539173554" />
+    <state width="1362" height="224" key="GridCell.Tab.0.right" timestamp="1585539173554">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1362" height="224" key="GridCell.Tab.0.right/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585532898372" />
-    <state x="481" y="193" key="Vcs.Push.Dialog.v2" timestamp="1585536919256">
+    <state width="1362" height="224" key="GridCell.Tab.0.right/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585539173554" />
+    <state x="481" y="193" key="Vcs.Push.Dialog.v2" timestamp="1585537090108">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="481" y="193" key="Vcs.Push.Dialog.v2/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585536919256" />
+    <state x="481" y="193" key="Vcs.Push.Dialog.v2/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585537090108" />
     <state x="338" y="170" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1585521060169" />
     <state x="527" y="365" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585520982280">
       <screen x="0" y="23" width="1440" height="877" />

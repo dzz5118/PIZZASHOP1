@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b51378cd-4bf6-405e-841a-090df67ba21e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/psu/abington/ist/ist242/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/psu/abington/ist/ist242/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/psu/abington/ist/ist242/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/psu/abington/ist/ist242/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/psu/abington/ist/ist242/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/psu/abington/ist/ist242/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/psu/abington/ist/ist242/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
@@ -52,6 +55,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -91,10 +99,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="724" y="325" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585527344277">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="724" y="325" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585527344277" />
     <state x="371" y="44" key="CommitChangelistDialog2" timestamp="1585521057969">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="371" y="44" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1585521057969" />
+    <state width="1362" height="224" key="GridCell.Tab.0.bottom" timestamp="1585532898372">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1362" height="224" key="GridCell.Tab.0.bottom/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585532898372" />
+    <state width="1362" height="224" key="GridCell.Tab.0.center" timestamp="1585532898372">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1362" height="224" key="GridCell.Tab.0.center/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585532898372" />
+    <state width="1362" height="224" key="GridCell.Tab.0.left" timestamp="1585532898372">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1362" height="224" key="GridCell.Tab.0.left/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585532898372" />
+    <state width="1362" height="224" key="GridCell.Tab.0.right" timestamp="1585532898372">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1362" height="224" key="GridCell.Tab.0.right/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585532898372" />
     <state x="338" y="170" key="Vcs.Push.Dialog.v2" timestamp="1585521060169">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

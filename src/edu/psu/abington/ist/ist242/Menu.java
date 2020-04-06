@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class Menu {
 
-    //Class Level Variables - Protect the data
     private int menuId;
     private String menuItem;
     private double menuPrice;

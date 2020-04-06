@@ -3,14 +3,13 @@ package edu.psu.abington.ist.ist242;
 import java.util.ArrayList;
 
 public class Order {
-    //Class Level Variables - Protect the data
     private int orderId;
     private Customer cust;
     private ArrayList<Menu> menuItem;
     private static ArrayList<Order> orderList = new ArrayList<>();
 
 
-    //Constructor Method
+    //Constructor
     public Order(int _orderId){
 
         this.orderId = _orderId;

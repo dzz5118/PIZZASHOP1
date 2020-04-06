@@ -20,20 +20,20 @@ public class Main {
         final char HELP_CODE = '?';
         char userAction;
         final String PROMPT_ACTION = "Add 'C'ustomer, 'P'rint Customer, List 'M'enu, Add 'O'rder, List 'T'ransaction or 'E'xit: ";
-        ArrayList<Customer> cList = new ArrayList<>();
-        ArrayList<Menu> mList = new ArrayList<>();
-        ArrayList<Order> oList = new ArrayList<>();
-        ArrayList<Transaction> tList = new ArrayList<>();
+        ArrayList<Customer> cList = new ArrayList<>(); //Array that holds customer list
+        ArrayList<Menu> mList = new ArrayList<>(); // Menu list
+        ArrayList<Order> oList = new ArrayList<>(); // Order list
+        ArrayList<Transaction> tList = new ArrayList<>(); // Transactioon list
 
         Order order1 = new Order(1);
         Transaction trans1 = new Transaction(1, order1, PaymentType.cash);
 
-        Menu menu1 = new Menu(1, "Plain", 10.00);
+        Menu menu1 = new Menu(1, "Plain", 10.00); //Menu items with prices
         Menu menu2 = new Menu(2, "Meat", 12.00);
         Menu menu3 = new Menu(3, "Extra", 1.50);
         Menu menu4 = new Menu(4, "Vegetable", 9.00);
 
-        mList.add(menu1);
+        mList.add(menu1); //Added menu items to menu list
         mList.add(menu2);
         mList.add(menu3);
         mList.add(menu4);
@@ -43,7 +43,7 @@ public class Main {
 
         userAction = getAction(PROMPT_ACTION);
 
-        while (userAction != EXIT_CODE) {
+        while (userAction != EXIT_CODE) {  //Switch created to use for user's main menu
             switch (userAction) {
                 case CUST_CODE:
                     cList.add(main.addCustomer());
@@ -58,7 +58,7 @@ public class Main {
                     System.out.print("Please enter ID: ");
                     int cid = scnr.nextInt();
                     ArrayList<Menu> cMenu = selectMenu(mList);
-                    Order.addOrders(order1, cList.get(cid), cMenu);
+                    Order.addOrders(order1, cList.get(cid-1), cMenu);
                     oList.add(order1);
                     trans1 = payment(order1);
                     tList.add(trans1);
@@ -72,7 +72,7 @@ public class Main {
         }
     }
 
-    public static ArrayList<Menu> selectMenu(ArrayList<Menu> menus) {
+    public static ArrayList<Menu> selectMenu(ArrayList<Menu> menus) {   //Selecting menu item
         System.out.println("Select from menu and enter 0 when finished");
         for (Menu menu : menus)
             System.out.println("'" + menu.getmenuId() + "' for " + menu.getmenuItem());
@@ -88,7 +88,7 @@ public class Main {
         return menus1;
     }
 
-    public static char getAction(String prompt) {
+    public static char getAction(String prompt) {  //user input
         Scanner scnr = new Scanner(System.in);
         String answer = "";
         System.out.println(prompt);
@@ -97,7 +97,7 @@ public class Main {
         return firstChar;
     }
 
-    public Customer addCustomer() {
+    public Customer addCustomer() {    //Adding customer
         Customer cust = new Customer(cCount++);
         Scanner scnr = new Scanner(System.in);
         System.out.println("Please Enter your Name: ");
@@ -107,7 +107,7 @@ public class Main {
         return cust;
     }
 
-    private static Transaction payment(Order order1) {
+    private static Transaction payment(Order order1) { //transaction input
         double total = 0;
         double amount;
         System.out.println("Total amount owed:");
@@ -125,7 +125,7 @@ public class Main {
         int option;
         Transaction t;
         while (true) {
-            System.out.print("Select Payment Option: ");
+            System.out.print("Select Payment Option: ");                 //Selecting cash/credit & printing stuff out
             System.out.println("1. Cash");
             System.out.println("2. Credit");
             option = scnr.nextInt();

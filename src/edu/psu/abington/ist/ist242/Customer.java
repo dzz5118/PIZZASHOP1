@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Customer {
-    //Class Level Variables - Protect the data
     private int customerId;
     private String customerName;
     private String customerPhoneNumber;

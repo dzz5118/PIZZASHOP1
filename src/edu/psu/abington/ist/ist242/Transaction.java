@@ -6,7 +6,6 @@ enum PaymentType {cash, credit}
 
 public class Transaction {
 
-    //Class Level Variables - Protect the data
     private int transactionId;
     private Order order;
     private PaymentType pType;
@@ -29,7 +28,8 @@ public class Transaction {
     public void setPaymentType(PaymentType _pType) {this.pType = _pType;}
 
     public static void listTransactions(ArrayList<Transaction> tList){
-        for (Transaction trans: tList){
+        for (int i = 1;  i < tList.size(); i++) {
+            Transaction  trans = tList.get(i);
             System.out.println("Transaction ID: " + trans.getTransactionId());
             //System.out.println("Order:" + trans.getOrder());  //TODO: Print order
             System.out.println("Payment Type: " + trans.getPaymentType());
